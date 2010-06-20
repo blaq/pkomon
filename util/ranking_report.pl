@@ -6,11 +6,9 @@ use lib '/opt/pkomon/lib';
 use warnings;
 use strict;
 
-use Carp;
 use DateTime;
 use Getopt::Long;
 use Spreadsheet::WriteExcel;
-use XML::Tiny;
 
 use PKOMon;
 use PKOMon::Data;
