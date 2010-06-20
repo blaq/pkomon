@@ -1,0 +1,2 @@
+# Fetch the current Top 100 data at 5am every morning.
+0 5 * * * root /opt/pkomon/bin/fetch_current_top100.pl
